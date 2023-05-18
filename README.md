@@ -5,5 +5,5 @@
 
 
 
-Free Tool to Anlayse Your wifi
+Free Tool to Anlayse Your wifi, download it and go to C:\Users\Garric louis\Downloads\hazel_tool\bin\Debug\net7.0 and launch "hazel_tool.exe"
 Website : https://hazelportoflio.000webhostapp.com/index.html
