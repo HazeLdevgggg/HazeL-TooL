@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Net.NetworkInformation;
 using System.Diagnostics;
@@ -10,9 +10,9 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("  Bienvenue sur le HazeL Tool, conçu pour surveiller votre WiFi.");
+        Console.WriteLine("  HazeL Tool by HazeL#2876");
         Console.WriteLine("-----------------------------------------------------------");
-        Console.WriteLine("  Tapez 'help' pour obtenir plus d'informations.");
+        Console.WriteLine("   type 'help' to see command");
         Console.WriteLine("-----------------------------------------------------------");
 
         while (true)
@@ -64,7 +64,6 @@ class Program
                 foreach (string ipAddress in connectedDevices)
                 {
                     Console.WriteLine(ipAddress);
-                    
                 }
                 Console.WriteLine("-----------------------------------------------------------");
             }
@@ -98,15 +97,9 @@ class Program
                 Console.WriteLine(output);
                 Console.WriteLine("-----------------------------------------------------------");
             }
-            else if (input.ToLower() == "checksafety")
-            {
-                
-            }
             else
             {
-                // Traitez les autres commandes ou actions ici
-                // ...
-                Console.WriteLine("Commande inconnue. Tapez 'help' pour obtenir de l'aide.");
+                Console.WriteLine("Unknow command. type 'help' to see all the command");
                 Console.WriteLine("-----------------------------------------------------------");
             }
         }
@@ -115,12 +108,11 @@ class Program
     static void AfficherAide()
     {
         Console.WriteLine("-----------------------------------------------------------------------");
-        Console.WriteLine("  help - Affiche cette aide.");
-        Console.WriteLine("  checkwifi - Affiche les appareils connectés au réseau.");
-        Console.WriteLine("  checkping - Affiche la latence du réseau.");
-        Console.WriteLine("  checkwifipassword - Obtenez le mot de passe du wifi");
-        Console.WriteLine("  checkipconfig - quelques informations utiles sur ton réseau");
-        Console.WriteLine("  checksafety - voir les réseaux autours et leurs caractéristiques");
+        Console.WriteLine("  help - show all command");
+        Console.WriteLine("  checkwifi - see the ip of all the user on your wifi");
+        Console.WriteLine("  checkping - see the ping of your wifi");
+        Console.WriteLine("  checkwifipassword - get your wifi password and other information");
+        Console.WriteLine("  checkipconfig - get some usefull information about your wifi");
         Console.WriteLine("-----------------------------------------------------------------------");
     }
 
