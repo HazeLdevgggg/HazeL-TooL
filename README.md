@@ -1,17 +1,13 @@
 
 
- HazeL-TooL
+ HazeL-TooL ![apple-icon-57x57](https://github.com/HazeLdevgggg/HazeL-TooL/assets/105066838/e4e2265a-6c1e-47ca-8f49-17a8e2d1d921)
+
 ============
 
 
 Free Tool to Anlayse Your wifi !
 
-
-
-![android-icon-192x192](https://github.com/HazeLdevgggg/HazeL-TooL/assets/105066838/f0d7ab57-0f18-4432-b861-5ce97d6e4f7d)
 ---
 
-## Website / Documentation
-
-https://hazelportoflio.000webhostapp.com/index.html
+## Website / Documentation : https://hazelportoflio.000webhostapp.com/index.html
 ---
